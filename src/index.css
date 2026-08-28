@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-cinzel-dec: 'Cinzel Decorative', serif;
+    --color-sandalwood-950: #120405;
+    --color-sandalwood-900: #1c0709;
+    --color-sandalwood-800: #290b0d;
+    --color-sandalwood-700: #3b0f13;
+    --color-sandalwood-600: #54161c;
+    --color-sandalwood-500: #781d26;
+    --color-vermilion-500: #c22934;
+    --color-gold-400: #f59e0b;
+  }
+
+  body {
+    font-family: var(--font-cinzel), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, serif;
+    background-color: #120405;
+    color: #f5f5f4;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-cinzel {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-cinzel-dec {
+    font-family: 'Cinzel Decorative', serif;
+  }
+}
+
+/* Custom Red Sandalwood Backgrounds */
+.bg-sandalwood-950 {
+  background-color: #120405;
+}
+.bg-sandalwood-900 {
+  background-color: #1c0709;
+}
+.bg-sandalwood-800 {
+  background-color: #2b0b0e;
+}
+.bg-sandalwood-700 {
+  background-color: #3d0f14;
+}
+
+/* Red Intricate Patterns & Filigrees */
+.border-sandalwood {
+  border-color: rgba(185, 28, 28, 0.4);
+}
+
+.border-sandalwood-gold {
+  border-color: rgba(217, 119, 6, 0.45);
+}
+
+/* Intricate Classical Motif Background */
+.bg-intricate-mandala {
+  background-image: radial-gradient(circle at 50% 50%, rgba(185, 28, 28, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 0% 0%, rgba(217, 119, 6, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 100% 100%, rgba(185, 28, 28, 0.08) 0%, transparent 40%);
+}
+
+.bg-shastric-mesh {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(185, 28, 28, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(185, 28, 28, 0.06) 1px, transparent 1px);
+}
+
+/* Glowing Sandalwood FX */
+.glow-sandalwood {
+  box-shadow: 0 0 25px rgba(185, 28, 28, 0.25), 0 0 50px rgba(120, 29, 38, 0.15);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}

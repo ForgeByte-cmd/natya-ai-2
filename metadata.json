@@ -1,0 +1,6 @@
+{
+  "name": "Mudra Lens",
+  "description": "Real-Time Indian Classical & Traditional Dance Interpretation System with MediaPipe and Gemini",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
